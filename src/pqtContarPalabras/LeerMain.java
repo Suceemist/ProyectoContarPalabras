@@ -51,9 +51,9 @@ public class LeerMain {
         int numPalabras = ContarPalabras.contarNumPalabras(cadena);
         int[] contador = ContarPalabras.contarCaracteresRepetidos(cadena);
 
-        ia.mostrarCaracteresTotal(numCaracteresSinBlancos);
-        ia.mostrarNumPalabras(numPalabras);
-        ia.mostrarCaracteres(contador);
+        Imprimir.mostrarCaracteresTotal(numCaracteresSinBlancos);
+        Imprimir.mostrarNumPalabras(numPalabras);
+        Imprimir.mostrarCaracteres(contador);
 
         scan.close();
     }
